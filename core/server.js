@@ -6,7 +6,14 @@ var company = require('../controllers/company_controller');
 
 http.createServer(function (req, resp) {
     switch (req.method) {
+        
         case 'GET':
+            if (req.url === '/') {
+                httpMsgs.showHome(req, resp);
+            }
+            if(req.url === '/getCompany'){
+                company.getCompanyData(req,resp);
+            }
             break;
         case 'POST':
             if (req.url === '/PostCompany') {
