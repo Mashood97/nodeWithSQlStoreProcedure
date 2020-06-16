@@ -1,0 +1,23 @@
+{
+  "name": "nodewithsqlstoreprocedure",
+  "version": "1.0.0",
+  "description": "Node api with sql store procedure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "restful",
+    "api",
+    "with",
+    "store",
+    "proc",
+    "sql"
+  ],
+  "author": "Muhammad Mashood Siddiquie",
+  "license": "ISC",
+  "dependencies": {
+    "mssql": "^6.2.0"
+  }
+}
